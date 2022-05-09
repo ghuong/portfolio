@@ -40,3 +40,9 @@ export const skills = [
   "Ruby on Rails",
   "MongoDB",
 ];
+
+export const contact = {
+  email: "garyhuong@gmail.com",
+  phone: "",
+  location: "Toronto, ON, Canada",
+};
