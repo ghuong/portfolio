@@ -19,7 +19,7 @@ export default function Contact() {
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", name, email, message }),
+      body: encode({ "form-name": "contact", name, email, message, subject: contact.emailSubject }),
     })
       .then(() => alert("Message sent!"))
       .catch((error) => alert(error));
@@ -84,7 +84,7 @@ export default function Contact() {
             <input
               type="hidden"
               name="subject"
-              value="Professional inquiry from garyhuong.netlify.app"
+              value={contact.emailSubject}
             />
             <input
               type="text"

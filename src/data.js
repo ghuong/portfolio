@@ -47,4 +47,5 @@ export const contact = {
   location: "Toronto, ON, Canada",
   // from embed-map.com:
   map: "https://www.google.com/maps/embed/v1/place?q=north+york&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8",
+  emailSubject: "Professional inquiry from garyhuong.netlify.app",
 };
