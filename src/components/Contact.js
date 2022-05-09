@@ -45,15 +45,16 @@ export default function Contact() {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 ADDRESS
               </h2>
-              <p className="mt-1">
-                {contact.location}
-              </p>
+              <p className="mt-1">{contact.location}</p>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
               </h2>
-              <a href={`mailto: ${contact.email}`} className="text-indigo-400 leading-relaxed">
+              <a
+                href={`mailto: ${contact.email}`}
+                className="text-indigo-400 leading-relaxed"
+              >
                 {contact.email}
               </a>
               {/* <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
@@ -80,6 +81,11 @@ export default function Contact() {
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
               Name
             </label>
+            <input
+              type="hidden"
+              name="subject"
+              value="Professional inquiry from garyhuong.netlify.app"
+            />
             <input
               type="text"
               id="name"
