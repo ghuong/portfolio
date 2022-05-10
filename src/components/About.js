@@ -33,6 +33,8 @@ export default function About() {
             className="object-cover object-center rounded-full"
             alt="face"
             src="./images/face2.jpg"
+            onMouseEnter={(event) => event.target.src="./images/face.jpg"}
+            onMouseLeave={(event) => event.target.src="./images/face2.jpg"}
           />
         </div>
       </div>
