@@ -21,6 +21,9 @@ export default function Navbar() {
           <a href="#education" className="mr-5 hover:text-white">
             Education
           </a>
+          <a href="#work" className="mr-5 hover:text-white">
+            Work
+          </a>
         </nav>
         <a
           href="#contact"

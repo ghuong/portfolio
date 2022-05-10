@@ -73,3 +73,29 @@ export const education = {
   ],
   text: "I am a Computer Science graduate from the University of Waterloo. Some of my notable courses are: Networks, Security, User Interfaces, A.I., Distributed Systems, Concurrency, Graphics, Operating Systems. I also did University of Helsinki's full-stack 2022 bootcamp, learning Node, React, and MongoDB.",
 };
+
+export const work = {
+  companies: [
+    {
+      name: "Compass",
+      position: "Dev-Ops Developer",
+    },
+    {
+      name: "IBM",
+      position: "Software Developer",
+    },
+    {
+      name: "T4G",
+      position: "Software Developer",
+    },
+    {
+      name: "SAP",
+      position: "Android Apps Developer",
+    },
+    {
+      name: "Workopolis",
+      position: ".NET Web Developer",
+    },
+  ],
+  text: "",
+};
