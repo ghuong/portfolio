@@ -11,13 +11,13 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Here are a few of the apps I've built. See my github for more:{" "}
+            Here are a few of the apps I've built. For more, see{" "}
             <a
               href={socialmedia.github}
               target="_blank"
               rel="noreferrer noopener"
             >
-              {socialmedia.github}
+              {socialmedia.githubShortened}.
             </a>
           </p>
         </div>

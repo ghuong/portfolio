@@ -1,5 +1,5 @@
 import React from "react";
-import { contact } from "../data";
+import { contact, socialmedia } from "../data";
 
 export default function Contact() {
   const [name, setName] = React.useState("");
@@ -46,7 +46,8 @@ export default function Contact() {
                 ADDRESS
               </h2>
               <p className="mt-1">
-                {contact.location}<br />
+                {contact.location}
+                <br />
                 (Open to Relocate)
               </p>
             </div>
@@ -76,18 +77,12 @@ export default function Contact() {
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
             Contact Me
           </h2>
-          <p className="leading-relaxed mb-5">
-            {contact.text}
-          </p>
+          <p className="leading-relaxed mb-5">{contact.text}</p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
               Name
             </label>
-            <input
-              type="hidden"
-              name="subject"
-              value={contact.emailSubject}
-            />
+            <input type="hidden" name="subject" value={contact.emailSubject} />
             <input
               type="text"
               id="name"

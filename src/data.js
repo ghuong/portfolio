@@ -54,6 +54,8 @@ export const contact = {
 
 export const socialmedia = {
   github: "https://github.com/ghuong",
+  githubShortened: "github.com/ghuong",
+  linkedin: "https://linkedin.com/in/garyhuong"
 };
 
 export const education = {

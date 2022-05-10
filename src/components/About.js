@@ -1,3 +1,5 @@
+import { socialmedia } from "../data";
+
 export default function About() {
   return (
     <section id="about">
@@ -10,8 +12,8 @@ export default function About() {
           </h1>
           <p className="mb-8 leading-relaxed">
             I am a Computer Science graduate from the University of Waterloo,
-            with experience developing full-stack applications,
-            particularly with modern web technologies like Node and React.
+            with experience developing full-stack applications, particularly
+            with modern web technologies like Node and React.
           </p>
           <div className="flex justify-center">
             <a
@@ -27,14 +29,28 @@ export default function About() {
               See What I've Built
             </a>
           </div>
+          <div className="flex-row mt-8">
+            <a href={socialmedia.github}>
+              <img
+                src="./images/github.png"
+                alt="github-logo"
+                className="w-7"
+              />
+            </a>
+            <a href={socialmedia.linkedin}>
+              <img
+                src="./images/linkedin.png"
+                alt="linkedin-logo"
+                className="w-7 ml-4"
+              />
+            </a>
+          </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
             className="object-cover object-center rounded-full"
             alt="face"
-            src="./images/face2.jpg"
-            onMouseEnter={(event) => event.target.src="./images/face.jpg"}
-            onMouseLeave={(event) => event.target.src="./images/face2.jpg"}
+            src="./images/face.jpg"
           />
         </div>
       </div>
