@@ -29,7 +29,7 @@ export default function About() {
               See What I've Built
             </a>
           </div>
-          <div className="flex-row mt-8">
+          <div className="flex flex-row mt-8">
             <a
               href={socialmedia.github}
               target="_blank"

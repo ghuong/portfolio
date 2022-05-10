@@ -61,7 +61,7 @@ export default function Contact() {
               >
                 {contact.email}
               </a>
-              <div className="flex-row mt-2">
+              <div className="flex flex-row mt-2">
                 <a
                   href={socialmedia.github}
                   target="_blank"
