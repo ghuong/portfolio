@@ -35,10 +35,15 @@ export const projects = [
 
 export const skills = [
   "JavaScript",
+  "Python",
   "React",
   "Node",
-  "Ruby on Rails",
+  "SQL",
   "MongoDB",
+  "Ruby on Rails",
+  "Android Apps",
+  "Object-Oriented Programming",
+  "Functional Programming"
 ];
 
 export const contact = {
