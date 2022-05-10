@@ -12,9 +12,9 @@ export default function Skills() {
             Skills &amp; Technologies
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            In my work, I've pick up new languages and technologies quickly,
+            In my work, I've picked up new languages and technologies quickly,
             thanks to my computer science foundations,
-            and here are some of the things I've worked with.
+            and here are a few of the things I've worked with.
           </p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
