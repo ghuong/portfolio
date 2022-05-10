@@ -1,11 +1,11 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Mutex Concurrency Lock",
+    subtitle: "Javascript Promises",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "Mutex to prevent race conditions in concurrent Node.js programs, built with Promise-chaining. Web demo built with React.",
+    image: "./images/mutex.png",
+    link: "https://mutex-gary.netlify.app",
   },
   {
     title: "React Tracks",
