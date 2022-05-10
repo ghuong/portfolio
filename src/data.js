@@ -49,7 +49,7 @@ export const contact = {
   // from embed-map.com:
   map: "https://www.google.com/maps/embed/v1/place?q=north+york&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8",
   emailSubject: "Professional inquiry from garyhuong.netlify.app",
-  text: "Interested in working with me? You can reach me here, or send me an email directly at garyhuong@gmail.com.",
+  text: "Interested in working with me? Reach me here, or email me at garyhuong@gmail.com.",
 };
 
 export const socialmedia = {
@@ -73,7 +73,7 @@ export const education = {
       degree: "Bachelor of Business Administration",
     },
   ],
-  text: "I am a Computer Science graduate from the University of Waterloo. Some of my notable courses are: Networks, Security, User Interfaces, A.I., Distributed Systems, Concurrency, Graphics, Operating Systems. I also did University of Helsinki's full-stack 2022 bootcamp, learning Node, React, and MongoDB.",
+  text: "Some of my notable CS courses were: Networks, Security, User Interfaces, A.I., Distributed Systems, Concurrency, Graphics, and Operating Systems. I also learned Node and React in the Full Stack 2022 bootcamp.",
 };
 
 export const work = {

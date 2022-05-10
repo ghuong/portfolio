@@ -61,6 +61,30 @@ export default function Contact() {
               >
                 {contact.email}
               </a>
+              <div className="flex-row mt-2">
+                <a
+                  href={socialmedia.github}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <img
+                    src="./images/github.png"
+                    alt="github-logo"
+                    className="w-6"
+                  />
+                </a>
+                <a
+                  href={socialmedia.linkedin}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <img
+                    src="./images/linkedin.png"
+                    alt="linkedin-logo"
+                    className="w-6 ml-4"
+                  />
+                </a>
+              </div>
               {/* <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE
               </h2>

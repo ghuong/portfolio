@@ -11,7 +11,7 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Here are a few of the apps I've built. For more, see{" "}
+            Here are a few of the apps I've built. See more at{" "}
             <a
               href={socialmedia.github}
               target="_blank"

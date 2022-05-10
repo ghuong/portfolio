@@ -30,14 +30,22 @@ export default function About() {
             </a>
           </div>
           <div className="flex-row mt-8">
-            <a href={socialmedia.github}>
+            <a
+              href={socialmedia.github}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               <img
                 src="./images/github.png"
                 alt="github-logo"
                 className="w-7"
               />
             </a>
-            <a href={socialmedia.linkedin}>
+            <a
+              href={socialmedia.linkedin}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               <img
                 src="./images/linkedin.png"
                 alt="linkedin-logo"
