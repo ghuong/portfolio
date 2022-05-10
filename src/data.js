@@ -8,28 +8,28 @@ export const projects = [
     link: "https://mutex-gary.netlify.app",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "Real-Time Group Chat",
+    subtitle: "Node, React Hooks, Socket.io",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reedbarger.com",
+      "Chatrooms with real-time chat updates using Socket.io.",
+    image: "./images/chat.png",
+    link: "https://group-chat-gary.herokuapp.com",
   },
   {
-    title: "DevChat",
-    subtitle: "React and Firebase",
+    title: "Mafia Game",
+    subtitle: "Ruby on Rails",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://jsbootcamp.com",
+      "Join a room with a couple of friends face-to-face to play Mafia, with real-time game updates using WebSockets.",
+    image: "./images/mafia.png",
+    link: "https://mafia-gary.herokuapp.com",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Project 4",
+    subtitle: "Technologies",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://pythonbootcamp.com",
+      "Description",
+    image: "./images/mutex.png",
+    link: "https://mutex-gary.netlify.app",
   },
 ];
 
@@ -41,9 +41,7 @@ export const skills = [
   "SQL",
   "MongoDB",
   "Ruby on Rails",
-  "Android Apps",
-  "Object-Oriented Programming",
-  "Functional Programming"
+  "Android Apps"
 ];
 
 export const contact = {
@@ -53,4 +51,9 @@ export const contact = {
   // from embed-map.com:
   map: "https://www.google.com/maps/embed/v1/place?q=north+york&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8",
   emailSubject: "Professional inquiry from garyhuong.netlify.app",
+  text: "Interested in working with me? You can reach me here, or send me an email directly at garyhuong@gmail.com."
 };
+
+export const socialmedia = {
+  github: "https://github.com/ghuong"
+}

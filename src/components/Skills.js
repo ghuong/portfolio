@@ -12,8 +12,8 @@ export default function Skills() {
             Skills &amp; Technologies
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            In previous work, I picked up new languages, frameworks, and technologies quickly,
-            thanks to my computer science foundation,
+            In my professional career, I've pick up new languages, frameworks, and technologies quickly,
+            thanks to my strong educational foundation in computer science,
             but here are a few of the technologies I've worked with.
           </p>
         </div>
