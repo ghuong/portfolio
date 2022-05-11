@@ -23,11 +23,12 @@ export const projects = [
     link: "https://mafia-gary.herokuapp.com",
   },
   {
-    title: "Project 4",
-    subtitle: "Technologies",
-    description: "Description",
-    image: "./images/project4.png",
-    link: "https://mutex-gary.netlify.app",
+    title: "Pool Graphics Engine",
+    subtitle: "C++, OpenGL",
+    description:
+      "Real-time 3D graphics engine, with collision physics of billiard balls on pool table",
+    image: "./images/pool.png",
+    link: "https://github.com/ghuong/pool",
   },
 ];
 
