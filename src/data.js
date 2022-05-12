@@ -34,7 +34,7 @@ export const projects = [
     title: "Command Line Chess",
     subtitle: "Ruby, Command Line",
     description:
-      "Command line interface (CLI) with full chess game logic, and Save and Load games functionality",
+      "Command line interface (CLI) with full chess game logic, plus Save and Load games functionality",
     image: "./images/chess.png",
     link: "https://github.com/ghuong/cli-chess",
   },
@@ -43,7 +43,7 @@ export const projects = [
     subtitle: "jQuery",
     description: "Etch-a-Sketch using jQuery",
     image: "./images/etchasketch.png",
-    link: "https://jquery-slideshow-gary.netlify.app",
+    link: "https://sketch-gary.netlify.app",
   },
 ];
 
