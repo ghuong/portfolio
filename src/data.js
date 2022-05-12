@@ -30,6 +30,20 @@ export const projects = [
     image: "./images/pool.png",
     link: "https://github.com/ghuong/pool",
   },
+  {
+    title: "Chess on Command Line",
+    subtitle: "Ruby, Command Line",
+    description: "Play Chess on Command Line, with save and load functionality",
+    image: "./images/chess.png",
+    link: "https://github.com/ghuong/cli-chess",
+  },
+  {
+    title: "Etch-a-Sketch",
+    subtitle: "jQuery",
+    description: "Etch-a-Sketch using jQuery",
+    image: "./images/etchasketch.png",
+    link: "https://jquery-slideshow-gary.netlify.app",
+  }
 ];
 
 export const about = {
