@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "SASS, CSS Animations, JavaScript",
     description: "Landing Page for an example e-commerce site.",
     image: "./images/ecommerce.png",
-    link: "https://shoebrand-gary.netlify.app",
+    link: "https://shoes-gary.netlify.app",
   },
   {
     title: "Pool Graphics Engine",
