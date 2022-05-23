@@ -1,5 +1,20 @@
 export const projects = [
   {
+    title: "E-Commerce Landing Page",
+    subtitle: "SASS, CSS Animations, JavaScript",
+    description: "Landing Page for an example e-commerce site.",
+    image: "./images/ecommerce.png",
+    link: "https://shoebrand-gary.netlify.app",
+  },
+  {
+    title: "Pool Graphics Engine",
+    subtitle: "C++, OpenGL",
+    description:
+      "Real-time 3D graphics engine, with collision physics of billiard balls on pool table",
+    image: "./images/pool.png",
+    link: "https://github.com/ghuong/pool",
+  },
+  {
     title: "Mutex Concurrency Lock",
     subtitle: "Javascript Promises",
     description:
@@ -23,27 +38,12 @@ export const projects = [
     link: "https://mafia-gary.herokuapp.com",
   },
   {
-    title: "Pool Graphics Engine",
-    subtitle: "C++, OpenGL",
-    description:
-      "Real-time 3D graphics engine, with collision physics of billiard balls on pool table",
-    image: "./images/pool.png",
-    link: "https://github.com/ghuong/pool",
-  },
-  {
     title: "Command Line Chess",
     subtitle: "Ruby, Command Line",
     description:
       "Command line interface (CLI) with full chess game logic, plus Save and Load games functionality",
     image: "./images/chess.png",
     link: "https://github.com/ghuong/cli-chess",
-  },
-  {
-    title: "Etch-a-Sketch",
-    subtitle: "jQuery",
-    description: "Etch-a-Sketch using jQuery",
-    image: "./images/etchasketch.png",
-    link: "https://sketch-gary.netlify.app",
   },
 ];
 
