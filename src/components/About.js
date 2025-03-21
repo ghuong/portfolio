@@ -2,17 +2,20 @@ import { about, socialmedia } from "../data";
 
 export default function About() {
   return (
-    <section id="about">
-      <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
-        <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+    <section id="about" className="flex-grow md:mx-20">
+      <div className="container mx-auto h-full flex flex-col md:flex-row-reverse items-center justify-center">
+        <div className="w-1/2 lg:w-2/5 lg:max-w-lg">
+          <img
+            className="object-cover object-center rounded-full mb-14"
+            alt="face"
+            src="./images/face.jpg"
+          />
+        </div>
+        <div className="md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-            Hi, I'm Gary,{" "}
-            <br className="hidden lg:inline-block" />
-            a Full Stack Developer.
+            Hi, it's me Gary{" "}
           </h1>
-          <p className="mb-8 leading-relaxed">
-            {about.text}
-          </p>
+          <p className="mb-8 leading-relaxed">{about.text}</p>
           <div className="flex justify-center">
             <a
               href="#contact"
@@ -51,13 +54,6 @@ export default function About() {
               />
             </a>
           </div>
-        </div>
-        <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <img
-            className="object-cover object-center rounded-full"
-            alt="face"
-            src="./images/face.jpg"
-          />
         </div>
       </div>
     </section>

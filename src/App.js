@@ -9,8 +9,10 @@ import Work from "./components/Work";
 function App() {
   return (
     <main className="text-gray-400 bg-gray-900 body-font">
-      <Navbar />
-      <About />
+      <div className="h-screen w-screen flex flex-col"> {/* About(+nav) fills screen */}
+        <Navbar />
+        <About />
+      </div>
       <Projects />
       <Skills />
       <Education />
