@@ -8,7 +8,7 @@ import Work from "./components/Work";
 
 function App() {
   return (
-    <main className="text-gray-400 bg-gray-900 body-font">
+    <main className="text-gray-400 body-font">
       <div className="h-screen w-screen flex flex-col"> {/* About(+nav) fills screen */}
         <Navbar />
         <About />
