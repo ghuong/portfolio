@@ -17,7 +17,18 @@ export default function Navbar() {
           <Navlink text="Education" href={"#education"} />
           <Navlink text="Work" href={"#work"} />
         </div>
-        <a href="#contact">Contact Me</a>
+        <div className="flex items-center">
+          <a
+            href="#contact"
+            className="py-3 px-6 rounded-full font-abrilFatface bg-color-second text-sm
+              transition-opacity duration-300
+              hover:opacity-80"
+          >
+            Contact
+          </a>
+          <i className="bx bx-moon text-lg pl-6"></i>
+          <i className="bx bx-menu text-2xl pl-6 hidden"></i>
+        </div>
       </div>
     </header>
   );
