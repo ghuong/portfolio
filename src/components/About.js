@@ -1,13 +1,9 @@
 import { about, socialmedia } from "../data";
+import React from "react";
 
 export default function About() {
   return (
     <section id="about" className="relative flex-grow">
-      <div className="absolute w-full h-full bg-transparent blur-2xl -z-10">
-        <div className="absolute rounded-full -z-50 bg-stone-200 w-44 h-44"></div>
-        <div className="absolute rounded-full -z-50 bg-stone-200 w-20 h-20 top-40 right-16"></div>
-        <div className="absolute rounded-full -z-50 bg-violet-700 w-12 h-12 bottom-16 left-2/3"></div>
-      </div>
       <div className="md:mx-20 h-full">
         <div className="container mx-auto h-full flex flex-col md:flex-row-reverse items-center justify-center">
           <div className="w-1/2 lg:w-2/5 lg:max-w-lg">
@@ -18,7 +14,7 @@ export default function About() {
             />
           </div>
           <div className="md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left items-center text-center">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium font-abrilFatface ">
               Hi, it's me Gary{" "}
             </h1>
             <p className="mb-8 leading-relaxed">{about.text}</p>
