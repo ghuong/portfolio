@@ -3,7 +3,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <section id="about" className="relative flex-grow">
+    <section id="about" className="relative h-[calc(100vh-5rem)]">
       <div className="md:mx-20 h-full">
         <div className="container mx-auto h-full flex flex-col md:flex-row-reverse items-center justify-center">
           <div className="w-1/2 lg:w-2/5 lg:max-w-lg">
