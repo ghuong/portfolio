@@ -1,10 +1,52 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Navlink from "./Navlink";
 
 export default function Navbar() {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const isScrolled = () => {
+      const threshold = 100;
+      return window.scrollY > threshold;
+    }
+
+    const isScrolledToBottom = () => {
+      const threshold = 10;
+      // viewport height plus scrolled height equals document's height
+      return (window.innerHeight + window.scrollY) >= (document.body.offsetHeight - threshold);
+    }
+
+    const handleScroll = () => {
+      if (isScrolled() && !isScrolledToBottom()) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll); // cleanup on unmount
+    };
+  }, []);
+
   return (
-    <header className="md:sticky top-0 z-50 h-20 font-abrilFatface">
-      <div className="flex flex-wrap mx-20 h-full flex-col md:flex-row items-center justify-between">
+    <header
+      className={`md:sticky top-0 z-50 h-20 font-abrilFatface
+        transition duration-1000 transform
+        ${
+          isScrolled
+            ? "bg-stone-50 shadow-lg -translate-y-4"
+            : "bg-transparent shadow-none translate-y-0"
+        }`}
+    >
+      <div
+        className={`flex flex-wrap h-full px-20 flex-col md:flex-row items-center justify-between
+          transition-transform transform duration-1000 
+            ${isScrolled ? "translate-y-2" : "translate-y-0"}
+          `}
+      >
         <a
           href="#about"
           className="title-font font-medium mb-4 md:mb-0 ml-3 text-3xl"
