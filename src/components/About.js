@@ -4,20 +4,40 @@ import React from "react";
 export default function About() {
   return (
     <section id="about" className="relative h-screen -translate-y-20">
-      <div className="container mx-auto h-full flex flex-col md:flex-row-reverse items-center justify-center">
-        <div className="w-1/2 lg:w-2/5 lg:max-w-lg">
+      <div
+        className="h-full w-full px-6
+        flex flex-col md:flex-row-reverse items-center justify-around
+      "
+      >
+        {/* <div className="w-1/2 lg:w-2/5 lg:max-w-lg">
           <img
             className="object-cover object-center rounded-full mb-14"
             alt="face"
             src="./images/face.jpg"
           />
+        </div> */}
+        <div
+          className="relative
+          before:absolute before:h-[25rem] before:w-[24rem] before:border-2 before:border-color-main
+          before:rounded-[46%_54%_34%_66%_/_54%_61%_39%_46%] before:top-1/2 before:-translate-y-1/2 before:-right-2"
+        >
+          <div
+            className="h-96 w-[23rem] bg-color-main flex items-center justify-center
+            rounded-[46%_54%_34%_66%_/_54%_61%_39%_46%] overflow-hidden"
+          >
+            <img
+              className="h-96 translate-y-10 -scale-x-100"
+              alt="face"
+              src="./images/hero.png"
+            />
+          </div>
         </div>
-        <div className="md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left items-center text-center">
+        <div className="w-[28rem] flex flex-col md:items-start md:text-left items-center">
           <div className="mb-8">
-            <div className="sm:text-6xl text-4xl font-abrilFatface mb-5">
+            <div className="sm:text-5xl text-4xl font-abrilFatface mb-3">
               I Am
             </div>
-            <div className="sm:text-[2.75rem] text-3xl font-abrilFatface">
+            <div className="sm:text-[2.75rem] text-[2rem] leading-none font-abrilFatface">
               Software <span className="text-dark-blue">Developer</span>
             </div>
           </div>
