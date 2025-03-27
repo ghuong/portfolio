@@ -45,16 +45,6 @@ export default function About() {
           </div>
           <div className="absolute flex flex-row gap-12 bottom-20 text-2xl">
             <a
-              href={socialmedia.github}
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <i className="bx bxl-github transition-colors duration-300 hover:text-color-main" />
-            </a>
-            <a href="#about">
-              <i className="bx bxl-dribbble transition-colors duration-300 hover:text-color-main" />
-            </a>
-            <a
               href={socialmedia.linkedin}
               target="_blank"
               rel="noreferrer noopener"
@@ -63,6 +53,16 @@ export default function About() {
             </a>
             <a href="#contact">
               <i className="bx bxs-envelope transition-colors duration-300 hover:text-color-main" />
+            </a>
+            <a
+              href={socialmedia.github}
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <i className="bx bxl-github transition-colors duration-300 hover:text-color-main" />
+            </a>
+            <a href="#about">
+              <i className="bx bxl-dribbble transition-colors duration-300 hover:text-color-main" />
             </a>
           </div>
         </div>
