@@ -47,17 +47,14 @@ export default function Navbar() {
             ${isScrolled ? "translate-y-2" : "translate-y-0"}
           `}
       >
-        <a
-          href="#about"
-          className="text-4xl"
-        >
+        <a href="#about" className="text-4xl">
           Gary Huong.
         </a>
         <div className="flex">
-          <Navlink text="Projects" href={"#projects"} />
-          <Navlink text="Skills" href={"#skills"} />
-          <Navlink text="Education" href={"#education"} />
           <Navlink text="Work" href={"#work"} />
+          <Navlink text="Projects" href={"#projects"} />
+          <Navlink text="Education" href={"#education"} />
+          <Navlink text="Skills" href={"#skills"} />
         </div>
         <div className="flex items-center">
           <a
