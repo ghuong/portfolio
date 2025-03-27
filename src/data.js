@@ -48,7 +48,7 @@ export const projects = [
 ];
 
 export const about = {
-  text: "I graduated from the University of Waterloo in Computer Science. I build full-stack web apps using modern technologies like Node and React."
+  text: "I am a full-stack software developer, proficient in building APIs and responsive web apps."
 }
 
 export const skills = [

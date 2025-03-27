@@ -42,14 +42,14 @@ export default function Navbar() {
         }`}
     >
       <div
-        className={`flex flex-wrap h-full px-20 flex-col md:flex-row items-center justify-between
+        className={`flex flex-wrap h-full px-24 flex-col md:flex-row items-center justify-between
           transition-transform transform duration-1000 
             ${isScrolled ? "translate-y-2" : "translate-y-0"}
           `}
       >
         <a
           href="#about"
-          className="title-font font-medium mb-4 md:mb-0 ml-3 text-3xl"
+          className="text-4xl"
         >
           Gary Huong.
         </a>
