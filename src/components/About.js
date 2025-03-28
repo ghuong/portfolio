@@ -6,7 +6,7 @@ export default function About() {
     <section id="about" className="relative h-screen -translate-y-20">
       <div
         className="h-full w-full px-6
-        flex flex-col md:flex-row-reverse items-center justify-around
+        flex flex-col md:flex-row-reverse items-center justify-evenly
       "
       >
         {/* <div className="w-1/2 lg:w-2/5 lg:max-w-lg">
@@ -35,9 +35,9 @@ export default function About() {
         <div className="w-[28rem] flex flex-col md:items-start md:text-left items-center">
           <div className="mb-8">
             <div className="sm:text-5xl text-4xl font-abrilFatface mb-3">
-              I Am
+              Hi, I'm Gary,
             </div>
-            <div className="sm:text-[2.75rem] text-[2rem] leading-none font-abrilFatface">
+            <div className="sm:text-[2.75rem] text-[2rem] leading-[2.75rem] sm:leading-[3.5rem] font-abrilFatface">
               Software <span className="text-dark-blue">Developer</span>
             </div>
           </div>
