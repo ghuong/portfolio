@@ -1,16 +1,20 @@
 import React from "react";
 
-export default function Navlink({ text, href }) {
+export default function Navlink({ text, href, isInMenu }) {
   return (
     <a
       href={href}
-      className="relative text-lg hover:text-color-main transition-all duration-300
-        after:absolute after:left-0 after:-bottom-2 after:w-full after:h-[2px] after:bg-color-main 
-        after:scale-x-0 hover:after:scale-x-100
-        after:transition-transform after:duration-300 
-        after:origin-right hover:after:origin-left"
+      className={`group ${isInMenu ? "py-5 px-28 lg:py-0 lg:px-0" : ""}`}
     >
-      {text}
+      <span
+        className="relative text-lg group-hover:text-color-main transition-all duration-300
+          after:absolute after:left-0 after:-bottom-2 after:w-full after:h-[2px] after:bg-color-main 
+          after:scale-x-0 group-hover:after:scale-x-100
+          after:transition-transform after:duration-300 
+          after:origin-right group-hover:after:origin-left"
+      >
+        {text}
+      </span>
     </a>
   );
 }
