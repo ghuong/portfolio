@@ -5,18 +5,18 @@ export default function About() {
   return (
     <section id="about" className="relative h-screen -translate-y-20">
       <div
-        className="h-full w-full px-10
+        className="h-full w-full px-10 mt-6
         flex flex-col items-center justify-center 
-        md:flex-row-reverse md:justify-evenly
+        md:flex-row-reverse md:justify-evenly md:mt-0
       "
       >
         <div
-          className="relative mt-14 md:mt-0
-          before:absolute before:h-[24rem] before:w-[23rem] before:border-2 before:border-color-second
+          className="relative
+          before:absolute before:h-[18rem] before:w-[17rem] before:md:h-[24rem] before:md:w-[23rem] before:border-2 before:border-color-second
           before:rounded-[46%_54%_34%_66%_/_54%_61%_39%_46%] before:top-1/2 before:-translate-y-1/2 before:-right-2"
         >
           <div
-            className="h-[23rem] w-[22rem] bg-stone-200 flex items-center justify-center
+            className="h-[17rem] w-[16rem] md:h-[23rem] md:w-[22rem] bg-stone-200 flex items-center justify-center
             rounded-[46%_54%_34%_66%_/_54%_61%_39%_46%] overflow-hidden"
           >
             <img
@@ -31,7 +31,7 @@ export default function About() {
             <div className="text-5xl font-abrilFatface mb-3 hidden md:block">
               Hi, I'm Gary,
             </div>
-            <div className="text-5xl leading-[2.75rem] font-abrilFatface mb-3 md:hidden">
+            <div className="text-[2.5rem] leading-[2.75rem] font-abrilFatface mb-3 md:hidden">
               I'm a
             </div>
             <div
@@ -68,7 +68,9 @@ export default function About() {
                 See What I've Built
               </a> */}
           </div>
-          <div className="absolute flex flex-row gap-12 -bottom-10 md:bottom-20 text-2xl">
+          <div className="relative md:absolute flex flex-row gap-12 md:bottom-20 text-2xl mt-14
+
+          ">
             <a
               href={socialmedia.linkedin}
               target="_blank"
