@@ -22,7 +22,7 @@ export default function About() {
           before:rounded-[46%_54%_34%_66%_/_54%_61%_39%_46%] before:top-1/2 before:-translate-y-1/2 before:-right-2"
         >
           <div
-            className="h-[23rem] w-[22rem] bg-color-second flex items-center justify-center
+            className="h-[23rem] w-[22rem] bg-stone-200 flex items-center justify-center
             rounded-[46%_54%_34%_66%_/_54%_61%_39%_46%] overflow-hidden"
           >
             <img
