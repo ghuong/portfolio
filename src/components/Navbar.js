@@ -41,7 +41,7 @@ export default function Navbar() {
 
   return (
     <header
-      className={`md:sticky top-0 z-40 h-20 font-abrilFatface
+      className={`sticky top-0 z-40 h-20 font-abrilFatface
         transition duration-1000 transform
         ${
           isScrolled
@@ -50,12 +50,12 @@ export default function Navbar() {
         }`}
     >
       <div
-        className={`relative flex flex-wrap h-full px-12 lg:px-24 flex-col md:flex-row items-center justify-between
+        className={`relative flex flex-wrap h-full px-12 lg:px-24 flex-row items-center justify-between
           transition-transform transform duration-1000 
             ${isScrolled ? "translate-y-2" : "translate-y-0"}
           `}
       >
-        <a href="#about" className="text-4xl">
+        <a href="#about" className="text-3xl sm:text-4xl">
           Gary Huong.
         </a>
         <div
@@ -74,11 +74,15 @@ export default function Navbar() {
           <Navlink text="Projects" href={"#projects"} />
           <Navlink text="Education" href={"#education"} />
           <Navlink text="Skills" href={"#skills"} />
+          <div className="sm:hidden">
+            <Navlink text="Contact" href={"#contact"} />
+          </div>
         </div>
         <div className="flex items-center">
           <a
             href="#contact"
             className="py-3 px-6 rounded-full font-abrilFatface bg-color-second text-sm
+              hidden sm:block
               transition-opacity duration-300
               hover:opacity-80"
           >
