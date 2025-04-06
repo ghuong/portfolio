@@ -57,7 +57,7 @@ export default function Navbar() {
             ${isScrolled ? "translate-y-2" : "translate-y-0"}
           `}
       >
-        <a href="#about" className="text-3xl sm:text-4xl">
+        <a href="#about" className="text-4xl">
           Gary Huong.
         </a>
         <div

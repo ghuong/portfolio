@@ -48,8 +48,10 @@ export const projects = [
 ];
 
 export const about = {
-  text: "I am a full-stack software developer, proficient in building APIs and responsive web apps."
-}
+  text: "I am a full-stack software developer, proficient in building APIs and responsive web apps.",
+  textLong:
+    "Hi, I'm Gary, a full-stack software developer, proficient in building APIs and responsive web apps."
+};
 
 export const skills = [
   "JavaScript",
