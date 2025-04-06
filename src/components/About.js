@@ -18,15 +18,15 @@ export default function About() {
         </div> */}
         <div
           className="relative
-          before:absolute before:h-[24rem] before:w-[24rem] before:border-2 before:border-color-second
+          before:absolute before:h-[24rem] before:w-[23rem] before:border-2 before:border-color-second
           before:rounded-[46%_54%_34%_66%_/_54%_61%_39%_46%] before:top-1/2 before:-translate-y-1/2 before:-right-2"
         >
           <div
-            className="h-[23rem] w-[23rem] bg-color-second flex items-center justify-center
+            className="h-[23rem] w-[22rem] bg-color-second flex items-center justify-center
             rounded-[46%_54%_34%_66%_/_54%_61%_39%_46%] overflow-hidden"
           >
             <img
-              className="h-[23rem] translate-y-9 -scale-x-100"
+              className="translate-y-2 scale-125"
               alt="face"
               src="./images/hero.png"
             />
