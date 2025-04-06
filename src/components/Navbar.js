@@ -39,6 +39,8 @@ export default function Navbar() {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const navLinkClasses = isMenuOpen ? "py-5 px-28 lg:py-0 lg:px-0" : ""
+
   return (
     <header
       className={`sticky top-0 z-40 h-20 font-abrilFatface
@@ -70,13 +72,11 @@ export default function Navbar() {
           ${isScrolled ? "-translate-y-2 lg:translate-y-0" : "translate-y-0"}
           ${isMenuOpen ? "flex py-8" : "hidden lg:flex"}`}
         >
-          <Navlink text="Work" href={"#work"} isInMenu={isMenuOpen} />
-          <Navlink text="Projects" href={"#projects"} isInMenu={isMenuOpen} />
-          <Navlink text="Education" href={"#education"} isInMenu={isMenuOpen} />
-          <Navlink text="Skills" href={"#skills"} isInMenu={isMenuOpen} />
-          <div className="sm:hidden">
-            <Navlink text="Contact" href={"#contact"} isInMenu={isMenuOpen} />
-          </div>
+          <Navlink text="Work" href={"#work"} classes={navLinkClasses} />
+          <Navlink text="Projects" href={"#projects"} classes={navLinkClasses} />
+          <Navlink text="Education" href={"#education"} classes={navLinkClasses} />
+          <Navlink text="Skills" href={"#skills"} classes={navLinkClasses} />
+          <Navlink text="Contact" href={"#contact"} classes={`${navLinkClasses} sm:hidden`} />
         </div>
         <div className="flex items-center">
           <a

@@ -1,10 +1,10 @@
 import React from "react";
 
-export default function Navlink({ text, href, isInMenu }) {
+export default function Navlink({ text, href, classes }) {
   return (
     <a
       href={href}
-      className={`group ${isInMenu ? "py-5 px-28 lg:py-0 lg:px-0" : ""}`}
+      className={`group ${classes}`}
     >
       <span
         className="relative text-lg group-hover:text-color-main transition-all duration-300
