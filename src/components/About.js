@@ -9,7 +9,11 @@ export default function About() {
   };
 
   return (
-    <section id="about" key={restartAnimation} className="relative h-screen -translate-y-20">
+    <section
+      id="about"
+      key={restartAnimation}
+      className="relative h-screen -translate-y-20"
+    >
       <div
         className="h-full w-full px-10 mt-6
         flex flex-col items-center justify-center 
@@ -63,7 +67,10 @@ export default function About() {
               Download CV
             </button>
             <button className="w-12 rounded-full bg-color-second shadow-second dark:shadow-darkModeSecond transition-shadow duration-300">
-              <i className="bx bx-play text-2xl" onClick={handleRestartClick}></i>
+              <i
+                className="bx bx-play text-2xl"
+                onClick={handleRestartClick}
+              ></i>
             </button>
             {/* <a
                 href="#contact"
@@ -85,13 +92,13 @@ export default function About() {
               rel="noreferrer noopener"
             >
               <i
-                className="bx bxl-linkedin-square dark:text-white transition-colors duration-300 hover:text-color-main animate-fade-down opacity-0"
+                className="bx bxl-linkedin-square dark:text-white hover:dark:text-color-main transition-colors duration-300 hover:text-color-main animate-fade-down opacity-0"
                 style={{ "--icon-count": "-20px" }}
               />
             </a>
             <a href="#contact">
               <i
-                className="bx bxs-envelope dark:text-white transition-colors duration-300 hover:text-color-main animate-fade-down opacity-0 animation-delay-200"
+                className="bx bxs-envelope dark:text-white hover:dark:text-color-main transition-colors duration-300 hover:text-color-main animate-fade-down opacity-0 animation-delay-200"
                 style={{ "--icon-count": "-50px" }}
               />
             </a>
@@ -101,7 +108,7 @@ export default function About() {
               rel="noreferrer noopener"
             >
               <i
-                className="bx bxl-github dark:text-white transition-colors duration-300 hover:text-color-main animate-fade-down opacity-0 animation-delay-400"
+                className="bx bxl-github dark:text-white hover:dark:text-color-main transition-colors duration-300 hover:text-color-main animate-fade-down opacity-0 animation-delay-400"
                 style={{ "--icon-count": "-80px" }}
               />
             </a>

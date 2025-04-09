@@ -105,11 +105,11 @@ export default function Navbar({ onToggleDarkMode: handleToggleDarkMode }) {
               Contact
             </a>
             <i
-              className="bx bx-moon dark:text-white cursor-pointer hover:text-color-main transition-colors duration-300 text-lg pl-6"
+              className="bx bx-moon dark:text-white hover:dark:text-color-main cursor-pointer hover:text-color-main transition-colors duration-300 text-lg pl-6"
               onClick={handleToggleDarkMode}
             ></i>
             <i
-              className="bx bx-menu dark:text-white cursor-pointer hover:text-color-main transition-colors duration-300 text-2xl pl-6 lg:hidden"
+              className="bx bx-menu dark:text-white hover:dark:text-color-main cursor-pointer hover:text-color-main transition-colors duration-300 text-2xl pl-6 lg:hidden"
               onClick={handleHamburgerMenuClicked}
             ></i>
           </div>
