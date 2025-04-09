@@ -20,11 +20,11 @@ export default function About() {
           className="relative
           before:absolute before:h-[18rem] before:w-[17rem] before:md:h-[24rem] before:md:w-[23rem] before:border-2 before:border-color-second
           before:rounded-[46%_54%_34%_66%_/_54%_61%_39%_46%] before:top-1/2 before:-translate-y-1/2 before:-right-2
-          dark:before:border-stone-500 transition-colors duration-300 animate-fade-left animation-delay-200 opacity-0"
+          dark:before:border-stone-300 transition-colors duration-300 animate-fade-left animation-delay-200 opacity-0"
         >
           <div
             className="h-[17rem] w-[16rem] md:h-[23rem] md:w-[22rem] bg-stone-200 flex items-center justify-center
-            rounded-[46%_54%_34%_66%_/_54%_61%_39%_46%] overflow-hidden dark:bg-stone-400 transition-colors duration-300"
+            rounded-[46%_54%_34%_66%_/_54%_61%_39%_46%] overflow-hidden dark:bg-stone-300 transition-colors duration-300"
           >
             <img
               className="translate-y-2 scale-125"
