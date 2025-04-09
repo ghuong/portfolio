@@ -1,9 +1,15 @@
 import { about, socialmedia } from "../data";
-import React from "react";
+import React, { useState } from "react";
 
 export default function About() {
+  const [restartAnimation, setRestartAnimation] = useState(false);
+
+  const handleRestartClick = () => {
+    setRestartAnimation(!restartAnimation);
+  };
+
   return (
-    <section id="about" className="relative h-screen -translate-y-20">
+    <section id="about" key={restartAnimation} className="relative h-screen -translate-y-20">
       <div
         className="h-full w-full px-10 mt-6
         flex flex-col items-center justify-center 
@@ -14,7 +20,7 @@ export default function About() {
           className="relative
           before:absolute before:h-[18rem] before:w-[17rem] before:md:h-[24rem] before:md:w-[23rem] before:border-2 before:border-color-second
           before:rounded-[46%_54%_34%_66%_/_54%_61%_39%_46%] before:top-1/2 before:-translate-y-1/2 before:-right-2
-          dark:before:border-stone-500 transition-colors duration-300"
+          dark:before:border-stone-500 transition-colors duration-300 animate-fade-left animation-delay-200 opacity-0"
         >
           <div
             className="h-[17rem] w-[16rem] md:h-[23rem] md:w-[22rem] bg-stone-200 flex items-center justify-center
@@ -57,7 +63,7 @@ export default function About() {
               Download CV
             </button>
             <button className="w-12 rounded-full bg-color-second shadow-second dark:shadow-darkModeSecond transition-shadow duration-300">
-              <i className="bx bx-play text-2xl"></i>
+              <i className="bx bx-play text-2xl" onClick={handleRestartClick}></i>
             </button>
             {/* <a
                 href="#contact"

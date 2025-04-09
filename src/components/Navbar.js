@@ -69,7 +69,7 @@ export default function Navbar({ onToggleDarkMode: handleToggleDarkMode }) {
             flex items-center z-50
             absolute flex-col top-20 right-0 bg-[rgba(255,255,255,0.8)] dark:bg-darkmode-menu-color
             rounded-[1.25rem_0_1.25rem_1.25rem] shadow-[-8px_8px_20px_rgba(0,0,0,0.2)] backdrop-blur-lg
-            lg:relative lg:flex-row lg:top-0 lg:bg-transparent lg:w-auto lg:py-0 lg:gap-12
+            lg:relative lg:flex-row lg:top-0 lg:bg-transparent lg:dark:bg-transparent lg:w-auto lg:py-0 lg:gap-12
             lg:border-none lg:shadow-none lg:backdrop-blur-none
             xl:gap-14
             transition-transform transform duration-1000
