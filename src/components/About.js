@@ -28,7 +28,7 @@ export default function About() {
           </div>
         </div>
         <div className="md:w-[28rem] flex flex-col items-start md:text-left md:mr-8">
-          <div className="mb-6 md:mb-8 dark:text-white transition-colors duration-300">
+          <div className="mb-6 md:mb-8 dark:text-white transition-colors duration-300 animate-fade-right animation-delay-200 opacity-0">
             <div className="text-5xl font-abrilFatface mb-3 hidden md:block">
               Hi, I'm Gary,
             </div>
@@ -47,11 +47,11 @@ export default function About() {
               </span>
             </div>
           </div>
-          <p className="mb-8 leading-relaxed font-poppins dark:text-white transition-colors duration-300">
+          <p className="mb-8 leading-relaxed font-poppins dark:text-white transition-colors duration-300 animate-fade-right animation-delay-400 opacity-0">
             <span className="md:hidden">{about.textLong}</span>
             <span className="hidden md:inline">{about.text}</span>
           </p>
-          <div className="flex justify-center gap-5">
+          <div className="flex justify-center gap-5 animate-fade-right animation-delay-600 opacity-0">
             <button className="flex items-center gap-2 rounded-full bg-color-main shadow-main text-white px-5 py-3 font-poppins">
               <i className="bx bx-file"></i>
               Download CV
@@ -78,17 +78,26 @@ export default function About() {
               target="_blank"
               rel="noreferrer noopener"
             >
-              <i className="bx bxl-linkedin-square dark:text-white transition-colors duration-300 hover:text-color-main" />
+              <i
+                className="bx bxl-linkedin-square dark:text-white transition-colors duration-300 hover:text-color-main animate-fade-down opacity-0"
+                style={{ "--icon-count": "-20px" }}
+              />
             </a>
             <a href="#contact">
-              <i className="bx bxs-envelope dark:text-white transition-colors duration-300 hover:text-color-main" />
+              <i
+                className="bx bxs-envelope dark:text-white transition-colors duration-300 hover:text-color-main animate-fade-down opacity-0 animation-delay-200"
+                style={{ "--icon-count": "-50px" }}
+              />
             </a>
             <a
               href={socialmedia.github}
               target="_blank"
               rel="noreferrer noopener"
             >
-              <i className="bx bxl-github dark:text-white transition-colors duration-300 hover:text-color-main" />
+              <i
+                className="bx bxl-github dark:text-white transition-colors duration-300 hover:text-color-main animate-fade-down opacity-0 animation-delay-400"
+                style={{ "--icon-count": "-80px" }}
+              />
             </a>
           </div>
         </div>

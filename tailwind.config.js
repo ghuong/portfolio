@@ -22,7 +22,21 @@ module.exports = {
         second: "0 0 20px 5px rgb(232, 219, 219)",
         darkModeSecond: "0 0 20px 5px rgb(232, 219, 219, 0.3)",
       },
+      keyframes: {
+        "fade-right": {
+          "0%": { opacity: "0", transform: "translateX(-50px)" }, // Adjust translateX as needed
+          "100%": { opacity: "1", transform: "translateX(0)" },
+        },
+        "fade-down": {
+          "0%": { opacity: "0", transform: "translateY(var(--icon-count))" },
+          "100%": { opacity: "1", transform: "translateX(0)" },
+        },
+      },
+      animation: {
+        "fade-right": "fade-right 2s forwards",
+        "fade-down": "fade-down 1s ease-out forwards",
+      },
     },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-animation-delay")],
 };
