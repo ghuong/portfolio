@@ -5,9 +5,10 @@ import React from "react";
 export default function Projects() {
   return (
     <section id="projects" className="relative">
-      <div className="absolute w-full h-screen -z-20 overflow-visible">
+      <div className="absolute w-full h-full -z-20 overflow-visible">
         <div className="absolute rounded-full bg-color-second dark:bg-darkmode-orb-color-second transition-colors duration-300 w-28 h-28 top-36 left-12"></div>
-        <div className="absolute rounded-full bg-color-second dark:bg-darkmode-orb-color-second w-24 h-24 bottom-28 left-[80%]"></div>
+        <div className="absolute rounded-full bg-color-main w-14 h-14 bottom-[50%] left-[85%]"></div>
+        <div className="absolute rounded-full bg-color-second dark:bg-darkmode-orb-color-second w-20 h-20 bottom-24 left-12"></div>
       </div>
       <div className="absolute w-full h-full bg-transparent -z-10 backdrop-blur-2xl dark:backdrop-blur-[50px]"></div>
       <div className="container px-5 pb-10 pt-28 mx-auto text-center lg:px-40">
