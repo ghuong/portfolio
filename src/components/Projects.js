@@ -44,8 +44,8 @@ export default function Projects() {
                   src={project.image}
                 />
                 <div className="absolute inset-0 h-full w-full shadow-inner border-4 border-color-second dark:border-darkmode-color-second"></div>
-                <div className="px-8 py-10 relative z-10 w-full h-full border-4 border-stone-700 bg-stone-900 opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-xs font-poppins text-green-400 mb-1">
+                <div className="px-8 py-10 relative z-10 w-full h-full border-4 border-stone-400 bg-color-second dark:border-stone-700 dark:bg-stone-900 opacity-0 hover:opacity-100">
+                  <h2 className="tracking-widest text-xs font-poppins text-dark-blue dark:text-darkmode-dark-blue mb-1">
                     {project.subtitle}
                   </h2>
                   <h1 className="font-abrilFatface text-xl dark:text-white mb-3">
