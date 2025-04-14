@@ -27,8 +27,14 @@ export default function Contact() {
 
   return (
     <section id="contact" className="relative min-h-screen flex items-center">
+      <div className="absolute w-full h-screen -z-20">
+        <div className="absolute rounded-full bg-color-second dark:bg-darkmode-orb-color-second transition-colors duration-300 w-40 h-40 top-28"></div>
+        <div className="absolute rounded-full bg-color-second dark:bg-darkmode-orb-color-second transition-colors duration-300 w-28 h-28 top-60 right-12 hidden sm:block"></div>
+        <div className="absolute rounded-full bg-color-main w-12 h-12 bottom-24 left-[60%]"></div>
+      </div>
+      <div className="absolute w-full h-full bg-transparent -z-10 backdrop-blur-2xl dark:backdrop-blur-[50px]"></div>
       <div className="container px-10 py-10 mx-auto mt-16 flex sm:flex-nowrap flex-wrap">
-        <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 items-end justify-start relative hidden md:flex">
+        <div className="lg:w-2/3 md:w-1/2 rounded-lg overflow-hidden sm:mr-10 p-10 items-end justify-start relative hidden md:flex">
           <iframe
             width="100%"
             height="100%"

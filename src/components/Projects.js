@@ -4,7 +4,12 @@ import React from "react";
 
 export default function Projects() {
   return (
-    <section id="projects">
+    <section id="projects" className="relative">
+      <div className="absolute w-full h-screen -z-20 overflow-visible">
+        <div className="absolute rounded-full bg-color-second dark:bg-darkmode-orb-color-second transition-colors duration-300 w-28 h-28 top-36 left-12"></div>
+        <div className="absolute rounded-full bg-color-second dark:bg-darkmode-orb-color-second w-24 h-24 bottom-28 left-[80%]"></div>
+      </div>
+      <div className="absolute w-full h-full bg-transparent -z-10 backdrop-blur-2xl dark:backdrop-blur-[50px]"></div>
       <div className="container px-5 pb-10 pt-28 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-14">
           <CodeIcon className="mx-auto inline-block w-10 mb-4 text-dark-blue dark:text-darkmode-dark-blue" />
