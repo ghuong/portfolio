@@ -37,7 +37,7 @@ export default function Projects() {
               rel="noreferrer noopener"
               className="flex-grow self-stretch sm:w-1/2 w-auto h-auto p-4"
             >
-              <div className="flex relative h-full w-full">
+              <div className="flex relative h-52 w-full overflow-hidden">
                 <img
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center"
