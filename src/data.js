@@ -95,7 +95,7 @@ export const education = {
       degree: "Bachelor of Business Administration",
     },
   ],
-  text: "Some of my notable CS courses were: Networks, Security, User Interfaces, A.I., Distributed Systems, Concurrency, Graphics, and Operating Systems. I also learned Node and React in the Full Stack 2022 bootcamp.",
+  text: "Some of my notable Computer Science courses were: Networks, Security, User Interfaces, A.I., Distributed Systems, Concurrency, Graphics, and Operating Systems. I learned Node and React in the Full Stack 2022 bootcamp.",
 };
 
 export const work = {

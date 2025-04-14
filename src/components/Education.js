@@ -18,9 +18,9 @@ export default function Education() {
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2 font-poppins">
           {education.schools.map((school) => (
             <div key={school.name} className="p-2 w-full">
-              <div className="bg-gray-800 rounded flex p-4 h-full items-center">
-                <AcademicCapIcon className="text-purple-400 w-6 h-6 flex-shrink-0 mr-4" />
-                <span className="title-font font-medium text-white">
+              <div className="bg-stone-200 dark:bg-darkmode-color-second rounded flex p-4 h-full items-center">
+                <AcademicCapIcon className="text-dark-blue dark:text-darkmode-dark-blue w-6 h-6 flex-shrink-0 mr-4" />
+                <span className="title-font font-medium dark:text-white">
                   <b>{school.name}</b>, {school.degree}
                 </span>
               </div>
