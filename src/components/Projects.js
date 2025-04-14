@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Projects() {
   return (
-    <section id="projects" className="relative">
+    <section id="projects" className="relative mb-24">
       <div className="absolute w-full h-full -z-20 overflow-visible">
         <div className="absolute rounded-full bg-color-second dark:bg-darkmode-orb-color-second transition-colors duration-300 w-28 h-28 top-36 left-12"></div>
         <div className="absolute rounded-full bg-color-main w-14 h-14 bottom-[50%] left-[85%]"></div>
@@ -43,14 +43,15 @@ export default function Projects() {
                   className="absolute inset-0 w-full h-full object-cover object-center"
                   src={project.image}
                 />
-                <div className="px-8 py-10 relative z-10 w-full h-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                <div className="absolute inset-0 h-full w-full shadow-inner border-4 border-color-second dark:border-darkmode-color-second"></div>
+                <div className="px-8 py-10 relative z-10 w-full h-full border-4 border-stone-700 bg-stone-900 opacity-0 hover:opacity-100">
                   <h2 className="tracking-widest text-xs font-poppins text-green-400 mb-1">
                     {project.subtitle}
                   </h2>
-                  <h1 className="font-abrilFatface text-lg dark:text-white mb-3">
+                  <h1 className="font-abrilFatface text-xl dark:text-white mb-3">
                     {project.title}
                   </h1>
-                  <p className="font-poppins text-sm leading-relaxed dark:text-white">
+                  <p className="font-poppins text-xs leading-relaxed dark:text-white">
                     {project.description}
                   </p>
                 </div>
