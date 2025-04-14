@@ -50,10 +50,12 @@ export const projects = [
 export const about = {
   text: "I am a full-stack software developer, proficient in building APIs and responsive web apps.",
   textLong:
-    "Hi, I'm Gary, a full-stack software developer, proficient in building APIs and responsive web apps."
+    "Hi, I'm Gary, a full-stack software developer, proficient in building APIs and responsive web apps.",
 };
 
 export const skills = [
+  "Go",
+  "Java",
   "JavaScript",
   "Python",
   "React",
@@ -62,6 +64,8 @@ export const skills = [
   "MongoDB",
   "Ruby on Rails",
   "Android Apps",
+  "Linux",
+  "Cryptography"
 ];
 
 export const contact = {
@@ -69,15 +73,15 @@ export const contact = {
   phone: "",
   location: "Toronto, ON, Canada",
   // from embed-map.com:
-  map: "https://www.google.com/maps/embed/v1/place?q=north+york&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8",
-  emailSubject: "Professional inquiry from garyhuong.netlify.app",
+  map: "https://www.google.com/maps/embed/v1/place?q=Ottawa&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8",
+  emailSubject: "Professional inquiry from garyh.netlify.app",
   text: "Interested in working with me? Reach me here, or email me at garyhuong@gmail.com.",
 };
 
 export const socialmedia = {
   github: "https://github.com/ghuong",
   githubShortened: "github.com/ghuong",
-  linkedin: "https://linkedin.com/in/garyhuong"
+  linkedin: "https://linkedin.com/in/garyhuong",
 };
 
 export const education = {
