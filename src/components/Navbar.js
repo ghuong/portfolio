@@ -11,17 +11,8 @@ export default function Navbar({ onToggleDarkMode: handleToggleDarkMode }) {
       return window.scrollY > threshold;
     };
 
-    const isScrolledToBottom = () => {
-      const threshold = 10;
-      // viewport height plus scrolled height equals document's height
-      return (
-        window.innerHeight + window.scrollY >=
-        document.body.offsetHeight - threshold
-      );
-    };
-
     const handleScroll = () => {
-      if (isScrolled() && !isScrolledToBottom()) {
+      if (isScrolled()) {
         setIsScrolled(true);
       } else {
         setIsScrolled(false);

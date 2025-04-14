@@ -5,7 +5,7 @@ import { education } from "../data";
 export default function Education() {
   return (
     <section id="education">
-      <div className="container px-5 pb-10 pt-28 h-screen mx-auto">
+      <div className="container px-5 pb-10 pt-28 min-h-screen mx-auto">
         <div className="text-center mb-14">
           <AcademicCapIcon className="w-10 inline-block mb-4 text-dark-blue dark:text-darkmode-dark-blue" />
           <h1 className="text-4xl font-abrilFatface dark:text-white mb-4">
