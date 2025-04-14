@@ -12,10 +12,12 @@ module.exports = {
         "color-second": "#E7DBDB",
         "dark-blue": "#372461",
         "navbar-color": "rgba(250, 250, 249, 0.99)",
-        "darkmode-color-second": "#555",
+        "darkmode-orb-color-second": "#555",
+        "darkmode-color-second": "#333",
         "darkmode-background-color": "#222",
         "darkmode-navbar-color": "rgba(26, 26, 26, 0.99)",
         "darkmode-menu-color": "rgba(26, 26, 26, 0.8)",
+        "darkmode-dark-blue": "#A78BFA",
       },
       boxShadow: {
         main: "0 0 20px 5px rgb(101, 41, 240, 0.5)",

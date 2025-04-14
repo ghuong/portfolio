@@ -52,7 +52,7 @@ export default function About() {
               lg:text-[2.75rem] lg:leading-[3.5rem]"
             >
               Software{" "}
-              <span className="text-dark-blue dark:text-violet-400 transition-colors duration-300">
+              <span className="text-dark-blue dark:text-darkmode-dark-blue transition-colors duration-300">
                 Developer
               </span>
             </div>

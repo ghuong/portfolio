@@ -5,17 +5,17 @@ import { education } from "../data";
 export default function Education() {
   return (
     <section id="education">
-      <div className="container px-5 py-10 mx-auto">
-        <div className="text-center mb-20">
-          <AcademicCapIcon className="w-10 inline-block mb-4" />
-          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
+      <div className="container px-5 pb-10 pt-28 h-screen mx-auto">
+        <div className="text-center mb-14">
+          <AcademicCapIcon className="w-10 inline-block mb-4 text-dark-blue dark:text-darkmode-dark-blue" />
+          <h1 className="text-4xl font-abrilFatface dark:text-white mb-4">
             Education
           </h1>
-          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+          <p className="font-poppins leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto dark:text-white">
             {education.text}
           </p>
         </div>
-        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2 font-poppins">
           {education.schools.map((school) => (
             <div key={school.name} className="p-2 w-full">
               <div className="bg-gray-800 rounded flex p-4 h-full items-center">

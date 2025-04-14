@@ -4,14 +4,14 @@ import React from "react";
 
 export default function Projects() {
   return (
-    <section id="projects" className="text-gray-400 body-font">
-      <div className="container px-5 py-10 mx-auto text-center lg:px-40">
-        <div className="flex flex-col w-full mb-20">
-          <CodeIcon className="mx-auto inline-block w-10 mb-4" />
-          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
+    <section id="projects">
+      <div className="container px-5 pb-10 pt-28 mx-auto text-center lg:px-40">
+        <div className="flex flex-col w-full mb-14">
+          <CodeIcon className="mx-auto inline-block w-10 mb-4 text-dark-blue dark:text-darkmode-dark-blue" />
+          <h1 className="text-4xl font-abrilFatface mb-4 dark:text-white">
             Apps I've Built
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+          <p className="lg:w-2/3 mx-auto leading-relaxed font-poppins dark:text-white">
             Here are a few of the apps I've built. See more at{" "}
             <a
               href={socialmedia.github}
@@ -38,13 +38,15 @@ export default function Projects() {
                   src={project.image}
                 />
                 <div className="px-8 py-10 relative z-10 w-full h-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                  <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
+                  <h2 className="tracking-widest text-xs font-poppins text-green-400 mb-1">
                     {project.subtitle}
                   </h2>
-                  <h1 className="title-font text-lg font-medium text-white mb-3">
+                  <h1 className="font-abrilFatface text-lg dark:text-white mb-3">
                     {project.title}
                   </h1>
-                  <p className="leading-relaxed">{project.description}</p>
+                  <p className="font-poppins text-sm leading-relaxed dark:text-white">
+                    {project.description}
+                  </p>
                 </div>
               </div>
             </a>

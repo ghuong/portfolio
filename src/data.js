@@ -101,24 +101,34 @@ export const education = {
 export const work = {
   companies: [
     {
+      name: "Entrust",
+      position: "Software Developer",
+      dates: "July 2022 - Present",
+    },
+    {
       name: "Compass",
       position: "Dev-Ops Developer",
+      dates: "4 Months",
     },
     {
       name: "IBM",
       position: "Software Developer",
+      dates: "4 Months",
     },
     {
       name: "T4G",
       position: "Software Developer",
+      dates: "4 Months",
     },
     {
       name: "SAP",
       position: "Android Apps Developer",
+      dates: "4 Months",
     },
     {
       name: "Workopolis",
       position: ".NET Web Developer",
+      dates: "4 Months",
     },
   ],
   text: "",
