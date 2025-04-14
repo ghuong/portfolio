@@ -54,18 +54,18 @@ export const about = {
 };
 
 export const skills = [
-  "Go",
-  "Java",
-  "JavaScript",
-  "Python",
-  "React",
-  "Node",
-  "SQL",
-  "MongoDB",
+  "Backend",
+  "Frontend",
+  "Go, Python, Java, C#",
+  "JavaScript, CSS",
+  "SQL, NoSQL",
   "Ruby on Rails",
   "Android Apps",
-  "Linux",
-  "Cryptography"
+  "Docker, K8S, AWS",
+  "Cryptography",
+  "Agile, CI/CD",
+  "Concurrency",
+  "Object-Oriented Programming",
 ];
 
 export const contact = {

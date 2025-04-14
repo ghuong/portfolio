@@ -14,7 +14,7 @@ export default function Skills() {
         <div className="text-center mb-10">
           <ChipIcon className="w-10 inline-block mb-4 text-dark-blue dark:text-darkmode-dark-blue" />
           <h1 className="text-4xl font-abrilFatface dark:text-white mb-4">
-            Skills &amp; Technologies
+            Skills
           </h1>
           <p className="font-poppins leading-relaxed dark:text-white xl:w-2/4 lg:w-3/4 mx-auto">
             In my work, I've picked up new languages and technologies quickly,
