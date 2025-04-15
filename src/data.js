@@ -1,5 +1,13 @@
 export const projects = [
   {
+    title: "Self-Therapy App",
+    subtitle: "React, Finite State Machines",
+    description:
+      "Guided psychotherapy sessions using Internal Family Systems.",
+    image: "./images/ifs.png",
+    link: "https://ifstherapy.netlify.app",
+  },
+  {
     title: "E-Commerce Landing Page",
     subtitle: "SASS, CSS Animations, JavaScript",
     description: "Landing Page for an example e-commerce site.",

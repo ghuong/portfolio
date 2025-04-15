@@ -29,13 +29,14 @@ export default function Projects() {
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
-          {projects.map((project) => (
+          {projects.map((project, idx) => (
             <a
               href={project.link}
               key={project.image}
               target="_blank"
               rel="noreferrer noopener"
-              className="flex-grow self-stretch sm:w-1/2 w-auto h-auto p-4"
+              className={`flex-grow self-stretch w-auto h-auto p-4
+                ${idx === 0 ? "" : "sm:w-1/2"}`}
             >
               <div className="flex relative h-52 w-full overflow-hidden">
                 <img
