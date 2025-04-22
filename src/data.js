@@ -65,7 +65,7 @@ export const skills = [
   "Backend",
   "Frontend",
   "Go, Python, Java, C#",
-  "JavaScript, CSS",
+  "React, JS, CSS",
   "SQL, NoSQL",
   "Ruby on Rails",
   "Android Apps",
@@ -73,13 +73,13 @@ export const skills = [
   "Cryptography",
   "Agile, CI/CD",
   "Concurrency",
-  "Object-Oriented Programming",
+  "OOP / Functional",
 ];
 
 export const contact = {
   email: "garyhuong@gmail.com",
   phone: "",
-  location: "Toronto, ON, Canada",
+  location: "Ottawa, ON, Canada",
   // from embed-map.com:
   map: "https://www.google.com/maps/embed/v1/place?q=Ottawa&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8",
   emailSubject: "Professional inquiry from garyh.netlify.app",
