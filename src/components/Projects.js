@@ -11,7 +11,7 @@ export default function Projects() {
         <div className="absolute rounded-full bg-color-second dark:bg-darkmode-orb-color-second w-20 h-20 bottom-24 left-12"></div>
       </div>
       <div className="absolute w-full h-full bg-transparent -z-10 backdrop-blur-2xl dark:backdrop-blur-[50px]"></div>
-      <div className="container px-5 pb-10 pt-28 mx-auto text-center lg:px-40">
+      <div className="px-5 pb-10 pt-28 mx-auto text-center">
         <div className="flex flex-col w-full mb-14">
           <CodeIcon className="mx-auto inline-block w-10 mb-4 text-dark-blue dark:text-darkmode-dark-blue" />
           <h1 className="text-4xl font-abrilFatface mb-4 dark:text-white">
@@ -28,15 +28,15 @@ export default function Projects() {
             </a>
           </p>
         </div>
-        <div className="flex flex-wrap -m-4">
+        <div className="flex flex-wrap md:w-3/4 xl:w-1/2 mx-auto">
           {projects.map((project, idx) => (
             <a
               href={project.link}
               key={project.image}
               target="_blank"
               rel="noreferrer noopener"
-              className={`flex-grow self-stretch w-auto h-auto p-4
-                ${idx === 0 ? "" : "sm:w-1/2"}`}
+              className={`flex-grow self-stretch p-4
+                ${idx === 0 ? "w-full" : "sm:w-1/2"}`}
             >
               <div className="flex relative h-52 w-full overflow-hidden">
                 <img
