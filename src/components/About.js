@@ -68,28 +68,16 @@ export default function About() {
             <span className="hidden md:inline">{about.text}</span>
           </p>
           <div className="flex justify-center gap-5 animate-fade-right animation-delay-600 opacity-0">
-            <button className="flex items-center gap-2 rounded-full bg-color-main shadow-main text-white px-5 py-3 font-poppins">
-              <i className="bx bx-file"></i>
-              Download CV
-            </button>
+            <a href="#work" className="flex items-center gap-2 rounded-full bg-color-main shadow-main text-white px-5 py-3 font-poppins">
+              Résumé Tour
+              <i className="bx bxs-chevrons-down"></i>
+            </a>
             <button className="w-12 rounded-full bg-color-second shadow-second dark:shadow-darkModeSecond transition-shadow duration-300">
               <i
                 className="bx bx-play text-2xl"
                 onClick={handleRestartClick}
               ></i>
             </button>
-            {/* <a
-                href="#contact"
-                className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
-              >
-                Work With Me!
-              </a>
-              <a
-                href="#projects"
-                className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"
-              >
-                See What I've Built
-              </a> */}
           </div>
           <div className="relative md:absolute flex flex-row gap-12 md:bottom-20 text-2xl mt-14">
             <a
